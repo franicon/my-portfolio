@@ -427,7 +427,7 @@ body {
   }
   .banner-container {
     width: 95%;
-    margin: 3rem auto;
+    margin: 0rem auto;
   }
   .banner-container h1 {
     font-size: 35px;
