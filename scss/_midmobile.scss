@@ -1,0 +1,33 @@
+@import 'animation';
+
+@media(min-width:770px) and (max-width:968px){
+    .container{
+        max-width: 95%;
+        margin: 2rem auto;
+    }
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-list{
+       display: flex;
+       align-items: center;
+    }
+    .toggle-wrapper{
+        display: none;
+    }
+    .sides{
+        display: none;
+    }
+    .banner-container{
+        width: 80%;
+        margin: 7rem auto;
+
+        h1{
+            font-size: 55px;
+        }
+    }
+}

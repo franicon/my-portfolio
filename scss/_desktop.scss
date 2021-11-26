@@ -1,0 +1,46 @@
+@import 'animation';
+
+@media(min-width:968px){
+    
+    .container{
+        max-width: 95%;
+        margin: 2rem auto;
+    }
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+    .nav-list{
+       display: flex;
+       align-items: center;
+    }
+    .toggle-wrapper{
+        display: none;
+    }
+    
+    .banner-container{
+        width: 75%;
+        margin: -3rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 80vh;
+
+        h1{
+            font-size: 80px;
+        }
+        .second-heading{
+            color: $dark-white-color;
+        }
+        .sub-headings{
+            max-width: 540px;
+            font-size: 18px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+}

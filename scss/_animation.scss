@@ -1,0 +1,60 @@
+
+.main-nav{
+    transition: .6s linear;
+}
+
+.main-nav-bg{
+    background-color:#0a192f;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.254);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 12px;
+    transition: all .6s linear;
+ }
+ .sub-headings{
+    scroll-behavior: smooth;
+    position: relative;
+    animation-name: slide-in;
+   animation-timing-function: linear;
+   animation-duration: 2s;
+   animation-delay: 1.5s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+.header{
+    scroll-behavior: smooth;
+    position: relative;
+    animation-name: slide-in;
+   animation-timing-function: linear;
+   animation-duration: 1s;
+   animation-delay: .8s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+ .intro-header{
+     scroll-behavior: smooth;
+     position: relative;
+     animation-name: slide-in;
+    animation-timing-function: linear;
+    animation-duration: .6s;
+    animation-delay: .4s;
+    animation-fill-mode: forwards;
+    z-index: -1;
+    top: 0%;
+    opacity: 0;
+ }
+
+
+ @keyframes slide-in{
+    from{
+
+        opacity: 0;
+       transform: translateY(-10%);
+    }
+   to{
+        opacity: 1;
+        top: 0%;
+    }
+}

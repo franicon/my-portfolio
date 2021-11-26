@@ -1,0 +1,60 @@
+
+@import 'variables';
+@import 'utilities';
+@import'animation';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: $bg-complimentary-color;
+    font-family:"Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;;
+    color: $light-white-color;
+}
+
+.logo{
+    padding: 10px;
+}
+
+
+.nav-list{
+    list-style: none;
+    font-family: monospace;
+   
+    li{
+        padding: 10px; 
+        margin-right: 25px;}
+    a{
+        transition: all .6s ease-in-out;
+        text-decoration: none;
+        color: $light-white-color;
+        font-size: 16px;}
+    a:hover{
+        color:$green-text-color;}
+    .download-btn{
+        border: 1px $green-text-color solid;
+        align-self: center;
+        border-radius: 5px;
+        a{color: $light-white-color;
+            padding: 15px 10px;}
+    }
+}
+
+.dm{
+    margin-top: 2rem;
+    a{
+        text-decoration: none;
+        border: 1px solid $green-text-color;
+        color: $green-text-color;
+        padding: 15px 15px 15px 15px;
+        border-radius: 5px;
+        margin-top: 2rem;}
+}
+
+@import 'tablet';
+@import 'mobile';
+@import 'midmobile';
+@import 'desktop';
