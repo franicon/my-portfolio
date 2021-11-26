@@ -22,6 +22,7 @@
    animation-delay: 1.5s;
    animation-fill-mode: forwards;
    opacity: 0;
+   z-index: -1;
 }
 .header{
     scroll-behavior: smooth;
@@ -32,6 +33,7 @@
    animation-delay: .8s;
    animation-fill-mode: forwards;
    opacity: 0;
+   z-index: -1;
 }
  .intro-header{
      scroll-behavior: smooth;
