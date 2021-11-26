@@ -26,6 +26,7 @@
         padding-left: 10px;
         transition: all .5s ease-in-out;
         text-align: center;
+        z-index: 4;
         li{
             margin-top: 1rem;
             font-family: monospace;
@@ -39,7 +40,7 @@
      }
     .toggle-wrapper{
         .open-menu-btn{
-            z-index: 2;
+            z-index: 5;
             right: 0;
             top: 0;
             padding: 10px;
@@ -49,7 +50,7 @@
        
         .close-menu-btn{
             position: relative;
-            z-index: 2;
+            z-index: 5;
             right: 0;
             top: 0;
             padding: 10px;
@@ -63,15 +64,39 @@
         }
         
     }
+
   .sides{
        display: none;
    }
+
    .banner-container{
     width: 90%;
     margin: 5rem auto;
 
     h1{
         font-size: 50px;
+        }
     }
-}
+    .banner-container{
+        width: 90%;
+        margin: 0rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 80vh;
+
+        h1{
+            font-size: 60px;
+        }
+        .second-heading{
+            color: $dark-white-color;
+        }
+        .sub-headings{
+            max-width: 540px;
+            font-size: 18px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
 }

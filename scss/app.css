@@ -151,6 +151,7 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   opacity: 0;
+  z-index: -1;
 }
 
 .header {
@@ -167,6 +168,7 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   opacity: 0;
+  z-index: -1;
 }
 
 .intro-header {
@@ -319,6 +321,7 @@ body {
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     text-align: center;
+    z-index: 4;
   }
   .nav-list-wrapper li {
     margin-top: 1rem;
@@ -331,7 +334,7 @@ body {
     right: -100%;
   }
   .toggle-wrapper .open-menu-btn {
-    z-index: 2;
+    z-index: 5;
     right: 0;
     top: 0;
     padding: 10px;
@@ -341,7 +344,7 @@ body {
   }
   .toggle-wrapper .close-menu-btn {
     position: relative;
-    z-index: 2;
+    z-index: 5;
     right: 0;
     top: 0;
     padding: 10px;
@@ -363,6 +366,36 @@ body {
   }
   .banner-container h1 {
     font-size: 50px;
+  }
+  .banner-container {
+    width: 90%;
+    margin: 0rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    min-height: 80vh;
+  }
+  .banner-container h1 {
+    font-size: 60px;
+  }
+  .banner-container .second-heading {
+    color: #8893b0;
+  }
+  .banner-container .sub-headings {
+    max-width: 540px;
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -461,6 +494,7 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   opacity: 0;
+  z-index: -1;
 }
 
 .header {
@@ -477,6 +511,7 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   opacity: 0;
+  z-index: -1;
 }
 
 .intro-header {
@@ -584,6 +619,7 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   opacity: 0;
+  z-index: -1;
 }
 
 .header {
@@ -600,6 +636,7 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   opacity: 0;
+  z-index: -1;
 }
 
 .intro-header {
