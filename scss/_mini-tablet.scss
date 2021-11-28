@@ -1,0 +1,67 @@
+@media(max-width:768px){
+
+    //Navbar Section
+
+    .nav-list-wrapper{
+        width: 75%;
+        position: fixed;
+        right: 0%;
+        height: 100vh;
+        top: 0;
+        transition: all .5s ease-in-out;
+    }
+   
+    //End of Navbar Section 
+
+    .sides{
+        display: none;
+    }
+    
+
+    //Banner Section 
+
+    .banner-container{
+        width: 95%;
+        margin: .5rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 70vh;
+        transition: all .5s ease-in-out;
+        h1{
+            font-size: 40px;
+            transition: all .5s ease-in-out;
+        }
+        .second-heading{
+            color: $dark-white-color;
+        }
+        .sub-headings{
+            max-width: 700px;
+            font-size: 19px;
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+            color: $dark-white-color;
+            line-height: 1.5;
+            transition: all .5s ease-in-out;
+        }
+        .intro-header{
+            font-family: monospace;
+            font-size: 18px;
+            color: $green-text-color;
+            margin: 15px 0 15px 0;
+            transition: all .5s ease-in-out;
+        }
+    }
+
+    // End of Banner Section 
+    
+    // Footer Section 
+
+    .main-footer{
+        display: none;
+       
+    }
+
+    //End of Footer Section
+}

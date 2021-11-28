@@ -36,7 +36,7 @@ toggleWrapper.addEventListener('click', function(e){
 });
 
 window.addEventListener('scroll', function(){
-  if(window.scrollY > 100){
+  if(window.scrollY > 2){
     mainNav.classList.add('main-nav-bg')
   }else if(window.scrollY <2){
     mainNav.classList.remove('main-nav-bg')

@@ -1,123 +1,109 @@
-@media(max-width:769px){
+@media(max-width:858px){
     
-    .container{
-        max-width: 95%;
-        margin: 1rem auto;
-    }
+    //Navbar Section
+    
     .main-nav{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        width: 100%;
-    }
-   
-    .nav-list-wrapper{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 70%;
-        height: 100vh;
-        background-color: $background-color;
-        position: fixed;
-        top: 0;
-        right: 0;
-        padding-left: 10px;
-        transition: all .5s ease-in-out;
-        text-align: center;
-        z-index: 4;
-        li{
-            margin-top: 1rem;
-            font-family: monospace;
-            transition: all .5s linear;
-        }
-       
-     }
-     .nav-list-wrapper.open{
-        top: 0;
-        right: -100%;
-     }
-    .toggle-wrapper{
-        .open-menu-btn{
-            z-index: 5;
-            right: 0;
-            top: 0;
-            padding: 10px;
-            cursor: pointer;
-            transition: all .3s linear;
-        }
-       
-        .close-menu-btn{
-            position: relative;
-            z-index: 5;
-            right: 0;
-            top: 0;
-            padding: 10px;
-            cursor: pointer;
-        }
-        .close-menu-btn.rotate{
-            transform: rotate(90deg);
-        }
-        .d-none{
-            display: none !important;
-        }
         
-    }
-
-  .sides{
-       display: none;
-   }
-
-   .banner-container{
-    width: 90%;
-    margin: 5rem auto;
-
-    h1{
-        font-size: 50px;
+        .toggle-wrapper{
+            display: flex;
+            z-index: 2;
+            transform:rotate(360deg);
+            padding: 10px;
+            transition: all .5s ease-in-out;
+            .open-menu-btn{
+                position: relative;
+                
+            }
+            .d-none{
+                display: none;
+            }
         }
     }
+    
+    .sides{
+        display: none;
+    }
+    .nav-list-wrapper{
+        width: 60%;
+        position: fixed;
+        right: 0%;
+        height: 100vh;
+        top: 0;
+        transition: all .5s ease-in-out;
+        
+        .nav-list{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: $background-color;
+            height: 100vh;
+            
+
+            li{ 
+                margin-top: 3rem;
+            }
+            a{
+                font-size: 1.2rem;
+            }
+            .download-btn{
+                margin-top: 3.5rem;
+                padding: 15px 3rem 15px 3rem;
+            }
+         }   
+    }
+    
+    //End of Navbar Section
+
+    //Banner Section
+    
     .banner-container{
         width: 90%;
-        margin: 0rem auto;
+        margin: .5rem auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        min-height: 80vh;
+        min-height: 70vh;
 
         h1{
-            font-size: 60px;
+            font-size: 50px;
         }
         .second-heading{
             color: $dark-white-color;
         }
         .sub-headings{
-            max-width: 540px;
-            font-size: 18px;
+            max-width: 600px;
+            font-size: 19px;
             margin-top: 2rem;
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
+            color: $dark-white-color;
+            line-height: 1.5;
+        }
+        .intro-header{
+            font-family: monospace;
+            font-size: 18px;
+            color: $green-text-color;
+            margin: 15px 0 15px 0;
         }
     }
 
-    .footer-icons{
+    // End of Banner Section
+    
+
+    
+
+    //Footer Section
+
+    .main-footer{
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        font-family: monospace;
-        a:hover{
-           text-decoration: none;
-           color: $light-white-color;
-           font-family: monospace;
-           padding: 1rem 0;
-           letter-spacing: 0.1rem;
-           transition: all .3s ease-in-out;
-           opacity: 0.8;
-        }
+       
     }
-    .text-footer{
-        margin-top: 15px;
-        text-align: center;
-        font-family: monospace;
-    }
+
+    //End of Footer Section
 }

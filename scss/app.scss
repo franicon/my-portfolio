@@ -31,15 +31,20 @@ body{
         transition: all .6s ease-in-out;
         text-decoration: none;
         color: $light-white-color;
-        font-size: 16px;}
+        font-size: 15px;}
     a:hover{
         color:$green-text-color;}
     .download-btn{
         border: 1px $green-text-color solid;
         align-self: center;
         border-radius: 5px;
-        a{color: $light-white-color;
+        a{color: $green-text-color;
             padding: 15px 10px;}
+    }
+
+    .download-btn:hover{
+        background-color: #67e4a838;
+        transition: all .5s ease-in-out;
     }
 }
 
@@ -49,12 +54,23 @@ body{
         text-decoration: none;
         border: 1px solid $green-text-color;
         color: $green-text-color;
-        padding: 15px 15px 15px 15px;
+        padding: 20px 2rem 20px 2rem;
         border-radius: 5px;
         margin-top: 2rem;}
+    a:hover{
+        background-color: #67e4a838;
+        transition: all .5s ease-in-out;
+    }
+        font-family: monospace;
+        font-size: 1rem;
+
 }
 
-@import 'tablet';
-@import 'mobile';
-@import 'midmobile';
+
+
+
 @import 'desktop';
+@import 'mini-desktop';
+@import 'tablet';
+@import 'mini-tablet';
+@import 'mobile';

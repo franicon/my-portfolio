@@ -1,56 +1,76 @@
-@media(max-width:650px){
-    .container{
-        max-width: 90%;
-        margin: 1rem auto;
-    }
-    .main-nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
+@media(max-width:425px){
+  
+    //Navbar Section 
+
+    .nav-list-wrapper{
+        width: 80%;
+        position: fixed;
+        right: 0%;
+        height: 100vh;
+        top: 0;
+        transition: all .5s ease-in-out;
+        
+        .nav-list{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: $background-color;
+            height: 100vh;
+            
+
+            li{ 
+                margin-top: 1rem;
+            }
+            a{
+                font-size: 1rem;
+            }
+            .download-btn{
+                margin-top: 2rem;
+                padding: 15px 3rem 15px 3rem;
+            }
+         }   
     }
     
-  .sides{
-       display: none;
-   }
-   .banner-container{
-    width: 95%;
-    margin: 0rem auto;
+    //End of Navbar Section
 
-    h1{
-        font-size: 35px;
-        margin-top: 5px;
+    //banner Section 
+
+    .banner-container{
+        width: 90%;
+        h1{
+            font-size: 35px;
+        }
+       
+        .sub-headings{
+            font-size: 14px;
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+            color: $dark-white-color;
+            line-height: 1.5;
+        }
+        .intro-header{
+            font-family: monospace;
+            font-size: 18px;
+            color: $green-text-color;
+            margin: 15px 0 15px 0;
+        }
     }
-    .second-heading{
-        color: $dark-white-color;
-        padding-top: 10px;
-    }
-    .sub-headings{
-        max-width: 650px;
-        text-align: justify;
-        font-size: 15px;
-        margin-top: 1.5rem;
-        margin-bottom: 2rem;
-        color: $dark-white-color;
-    }
-    .intro-header{
-        font-family: monospace;
-        font-size: 18px;
-        color: $green-text-color;
-        margin: 15px 0 15px 0;
-    }
+    
     .dm{
-        margin-top: 1.5rem;
+        margin-top: 1rem;
+        font-size: 13px;
         a{
-            text-decoration: none;
-            border: 1px solid $green-text-color;
-            color: $light-white-color;
-            padding: 15px 15px 15px 15px;
+            padding: 15px 1rem 15px 1rem;
             border-radius: 5px;
             margin-top: 2rem;}
+    
     }
-}
-  
+     
+    // End of Banner Section
+
+    .main-footer{
+        display: none;
+       
+    }
 }
