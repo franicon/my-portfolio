@@ -1,6 +1,6 @@
 @import 'animation';
 
-@media(max-width:1080px){
+@media(max-width:1200px){
     
     .container{
         max-width: 90%;
@@ -24,12 +24,11 @@
              display: none;
          }
     }
-   
     // End of Navbar
-    
-    // Banner-Section
-    .banner-container{
-        width: 75%;
+
+     // Banner-Section
+     .banner-container{
+        width:85%;
         margin: 0rem auto;
         display: flex;
         flex-direction: column;
@@ -38,7 +37,7 @@
         min-height: 70vh;
 
         h1{
-            font-size: 70px;
+            font-size: 60px;
         }
         .second-heading{
             color: $dark-white-color;
@@ -59,81 +58,7 @@
         }
     }
     // End of Banner
-
-   //About Me
-
-   .about-container{
-    width: 90%;
-    margin: 0rem auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 70vh;
-    margin-top: 10rem;
-        .about-h1{
-            width: 90%;
-            margin: 0 auto;
-        }
-        .about-header{
-            width: 90%;
-            margin: 0 auto;
-           display: flex;
-           justify-content: space-between;
-            .about-content{
-              width:100%;
-              font-size: 18px;
-            }
-        }
-       .about-img{
-       width: 400px;
-       height: auto;
-        img{
-            width: 100%;
-        }
-       }
-   }
-
-   //Projects
-   .projects{
-    width: 75%;
-    margin: 10rem auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 70vh;
-
-    .project-details{
-        width: 100%;
-        margin: 4rem auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-align: right;
-        position: relative;
-        .project-video{
-            width: 100%;
-            video{
-                max-width: 100%;
-                position: relative;
-            }
-        }
-
-        .project-text{
-            width: 100%;
-            height: 100%;
-            z-index: 3;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            position: absolute;
-            background-color: #0a192fe8;
-           
-        }
-    }
-}
+    
     
     // footer-section
     .main-footer{

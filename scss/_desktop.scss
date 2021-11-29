@@ -1,6 +1,6 @@
 @import 'animation';
 
-@media(min-width:1080px){
+@media(min-device-width: 1200px) {
     
     .container{
         max-width: 95%;
@@ -29,8 +29,8 @@
     
     // Banner-Section
     .banner-container{
-        width:75%;
-        margin: 0rem auto;
+        width:80%;
+        margin: 2rem auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -38,8 +38,7 @@
         min-height: 70vh;
 
         h1{
-            font-size: 70px;
-        }
+            font-size: 75px;}
         .second-heading{
             color: $dark-white-color;
         }
@@ -60,157 +59,41 @@
     }
     // End of Banner
 
-   //About Me
+    //About -Me
 
-   .about-container{
-    width: 80%;
-    margin: 10rem auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    overflow-x: hidden;
-    min-height: 70vh;
-        .about-header{
-            width: 100%;
-            margin: 0 auto;
-           display: flex;
-           justify-content: center;
-           box-sizing: border-box;
-        .about-content{
-              box-sizing: border-box;
-              width:600px;
-              font-size: 19px;
-              color: $dark-white-color ;
-             
-              .contents{
-                  margin-top: 1.5rem;
-              }
-              a{
-                  color: $green-text-color;
-                  text-decoration: none;
-              }
-            }
-        }
-       .about-img{
-       max-width: 400px;
-       height: auto;
-       margin-top: 1.5rem;
-       padding-left: 4rem;
-        img{
-            width: 80%;
-            height: auto;
-            border-radius: 10px;
-        }
-       }
-   }
-
-   .about-h1{
-    width: 1000px;
-    margin: 1rem auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 1.5rem;
-    box-sizing: border-box;
-        h1{
-            padding: 0;
-            margin: 0;
-        }
-    }
-
-    //Projects
-    
-    .projects{
-        width: 75%;
-        margin: 10rem auto;
+    .about-container{
+        height: 70vh;
+        width: 65%;
+        margin: 2rem auto;
+        margin-top: 10rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        min-height: 70vh;
+      
 
-        .project-details{
-            width: 100%;
-            margin: 4rem auto;
+        .about-header{
+            font-size: 2rem;
+        }
+        .about-details-wrapper{
             display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            text-align: right;
-            position: relative;
-            
-            .project-video{
+          
+            justify-content: space-between;
+            .about-text{
                 width: 100%;
-                video{
-                    max-width: 120%;
-                    position: relative;
+               
+                .text-1{
+                   
+                   
                 }
             }
-
-            .project-text{
-                width: 100%;
-                z-index: 3;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-                position: relative;
-               .description-text{
-                background-color: $background-color;
-                box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.254);
-                padding: 2rem;
-                margin: 1rem 0 1rem 0;
-                line-height: 1.5;
-               }
+            .about-img{
+                width: 50%;
+                margin: 0 auto;
+                img{
+                   max-width: 300px;
+                }
             }
         }
     }
-
-    //Projects left
-
-    
-
-        .project-details-left{
-            width: 100%;
-            margin: 4rem auto;
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-            text-align: left;
-            position: relative;
-            
-            .project-video-left{
-                width: 100%;
-                video{
-                    max-width: 120%;
-                    margin: 0 auto;
-                    position: relative;
-                    right: 20%;
-                }
-            }
-
-            .project-text-left{
-                width: 100%;
-                z-index: 3;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-                position: relative;
-                
-               .description-text-left{
-                background-color: $background-color;
-                box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.254);
-                padding: 2rem;
-                margin: 1rem 0 1rem 0;
-                line-height: 1.5;
-               }
-            }
-        }
-    
-    
     
     // footer-section
     .main-footer{
