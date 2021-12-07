@@ -25,7 +25,7 @@
 
 .left {
   position: fixed;
-  left: 2rem;
+  left: 1.5rem;
   padding: 10px;
   bottom: 0%;
   display: -webkit-box;
@@ -86,6 +86,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 14px;
 }
 
 .right a {
@@ -98,7 +99,6 @@
   font-family: monospace;
   padding: 3rem 0;
   letter-spacing: 0.1rem;
-  font-size: 1rem;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -357,6 +357,34 @@ body {
   margin: 10rem auto;
 }
 
+.project-wrapper a {
+  color: #ccd6f6;
+  text-decoration: none;
+}
+
+.project-wrapper a:hover {
+  color: #67e4a8;
+}
+
+.project-wrapper h4 {
+  font-size: 15px;
+  font-weight: normal;
+  font-family: monospace;
+  padding: 10px 0 10px 0;
+  color: #67e4a8;
+}
+
+.project-wrapper p {
+  font-size: 13px;
+}
+
+.project-wrapper h5 {
+  font-size: 13px;
+  font-weight: normal;
+  font-family: monospace;
+  color: #8893b0;
+}
+
 .project-wrapper .project-header {
   color: #67e4a8;
   font-size: 20px;
@@ -369,7 +397,6 @@ body {
 .project-wrapper .main-project .main-project-wrapper {
   color: #ccd6f6;
   position: relative;
-  overflow: hidden;
 }
 
 .project-wrapper .main-project .main-project-wrapper .project-details {
@@ -438,8 +465,9 @@ body {
   line-height: 1.5;
   background-color: #112240;
   right: 0;
-  padding: 10px 2rem 10px 2rem;
+  padding: 1.5rem;
   margin: 15px 0 15px 0;
+  color: #ccd6f6;
 }
 
 .project-wrapper .main-project-2 {

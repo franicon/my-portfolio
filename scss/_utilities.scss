@@ -13,7 +13,7 @@
 // icons-and-emails
 .left{
     position: fixed;
-    left: 2rem;
+    left:1.5rem;
     padding: 10px;
     bottom: 0%;
      display: flex;
@@ -51,6 +51,7 @@
      display: flex;
      flex-direction: column;
      align-items: center;
+     font-size: 14px;
      a{
          -webkit-writing-mode: vertical-rl;
          writing-mode: vertical-rl;
@@ -60,7 +61,6 @@
         font-family: monospace;
         padding: 3rem 0;
         letter-spacing: 0.1rem;
-        font-size: 1rem;
         transition: all .3s ease-in-out;
      }
      a:hover{

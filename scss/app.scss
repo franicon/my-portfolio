@@ -202,6 +202,29 @@ body{
     width: 70vw;
     height: 100%;
     margin: 10rem auto;
+    a{
+        color: $light-white-color;
+        text-decoration: none;
+    }
+    a:hover{
+        color: $green-text-color;
+    }
+    h4{
+        font-size: 15px;
+        font-weight: normal;
+        font-family: monospace;
+        padding: 10px 0 10px 0;
+        color: $green-text-color;
+    }
+    p{
+        font-size: 13px;
+    }
+    h5{
+        font-size: 13px;
+        font-weight: normal;
+        font-family: monospace;
+        color: $dark-white-color;
+    }
     .project-header{
         color: $green-text-color;
         font-size: 20px;
@@ -212,7 +235,7 @@ body{
            
             color: $light-white-color;
             position: relative;
-            overflow: hidden;
+         
             .project-details{
                 width: 100%;
                 height: auto;
@@ -261,8 +284,9 @@ body{
                     line-height: 1.5;
                    background-color: #112240;
                    right: 0;
-                   padding: 10px 2rem 10px 2rem;
+                   padding: 1.5rem;
                    margin: 15px 0 15px 0; 
+                   color: $light-white-color;
                }
             }
            
