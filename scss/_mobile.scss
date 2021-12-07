@@ -2,6 +2,22 @@
     .main-nav{
         width: 95%;
         margin: 2rem auto;
+        .nav-list{
+            list-style: none;
+            font-size: 13px;
+            font-family: monospace;
+                a{
+                    text-decoration: none;
+                    color:$green-text-color;
+                    border: 1px solid $green-text-color;
+                    border-radius: 5px;
+                    padding: 10px 20px 10px 20px;
+                    transition: .5s ease-in-out;
+                }
+                a:hover{
+                    background-color: #67e4a849;
+                }
+        }
     }
     .banner{
         width: 90vw;
@@ -26,6 +42,7 @@
         }
         .dm{
             padding: 2rem 0 2rem 0;
+            font-size: 12px;
              a{
                  text-decoration: none;
                  font-family: monospace;
@@ -291,7 +308,7 @@
     .repo-header{
         text-align: center;
         h1{
-            font-size: 20px;
+            font-size: 1.5rem;
         }
     }
     .repo-content{

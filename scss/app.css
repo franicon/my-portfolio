@@ -998,6 +998,23 @@ footer {
     width: 95%;
     margin: 2rem auto;
   }
+  .main-nav .nav-list {
+    list-style: none;
+    font-size: 13px;
+    font-family: monospace;
+  }
+  .main-nav .nav-list a {
+    text-decoration: none;
+    color: #67e4a8;
+    border: 1px solid #67e4a8;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+  }
+  .main-nav .nav-list a:hover {
+    background-color: #67e4a849;
+  }
   .banner {
     width: 90vw;
     height: 80vh;
@@ -1021,6 +1038,7 @@ footer {
   }
   .banner .dm {
     padding: 2rem 0 2rem 0;
+    font-size: 12px;
   }
   .banner .dm a {
     text-decoration: none;
@@ -1313,7 +1331,7 @@ footer {
     text-align: center;
   }
   .repo-wrapper .repo-header h1 {
-    font-size: 20px;
+    font-size: 1.5rem;
   }
   .repo-wrapper .repo-content {
     display: -ms-grid;
