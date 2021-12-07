@@ -1004,7 +1004,7 @@ footer {
     margin: 3rem auto;
   }
   .banner .intro-header {
-    font-size: 15px;
+    font-size: 14px;
   }
   .banner .name-header {
     font-size: 18px;
@@ -1014,10 +1014,26 @@ footer {
   }
   .banner .brief-about {
     max-width: 600px;
-    font-size: 14px;
+    font-size: 13px;
     margin: 2rem 0 2rem 0;
     line-height: 1.5;
     color: #8893b0;
+  }
+  .banner .dm {
+    padding: 2rem 0 2rem 0;
+  }
+  .banner .dm a {
+    text-decoration: none;
+    font-family: monospace;
+    color: #67e4a8;
+    border: 1px solid #67e4a8;
+    border-radius: 5px;
+    padding: 20px 15px 20px 15px;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+  }
+  .banner .dm a:hover {
+    background-color: #67e4a849;
   }
   .about-container {
     width: 90vw;
@@ -1289,9 +1305,15 @@ footer {
   }
   .repo-wrapper {
     color: #ccd6f6;
-    width: 80vw;
+    width: 90vw;
     height: 100%;
     margin: 0 auto;
+  }
+  .repo-wrapper .repo-header {
+    text-align: center;
+  }
+  .repo-wrapper .repo-header h1 {
+    font-size: 20px;
   }
   .repo-wrapper .repo-content {
     display: -ms-grid;
@@ -1320,6 +1342,43 @@ footer {
   .repo-wrapper .repo-content .repo-main-content .repo-main-content-wrapper .content-stack {
     padding: 1rem 5px 5px 5px;
     font-family: monospace;
+  }
+  .contact-me {
+    margin: 0 auto;
+    height: 100vh;
+    color: #67e4a8;
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .contact-me h3 {
+    font-family: monospace;
+  }
+  .contact-me h1 {
+    font-size: 1.5rem;
+    color: #ccd6f6;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .contact-me p {
+    max-width: 500px;
+    line-height: 1.5;
+    padding-bottom: 4rem;
+    color: #8893b0;
+  }
+  .contact-me a {
+    text-decoration: none;
+    color: #67e4a8;
+    border: 1px solid #67e4a8;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 15px 20px 15px 20px;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+  }
+  .contact-me a:hover {
+    background-color: #67e4a849;
   }
 }
 /*# sourceMappingURL=app.css.map */
