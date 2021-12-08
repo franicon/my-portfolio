@@ -1131,6 +1131,9 @@ footer {
   .about-container .about-details-wrapper .about-text .text-1 .stack-icons-wrapper .stack-icons {
     padding: 10px;
   }
+  .about-container .about-details-wrapper .about-text .text-1 .stack-icons-wrapper .stack-icons .stack-icons {
+    width: 20px;
+  }
   .about-container .about-details-wrapper .about-img {
     width: 200px;
     height: auto;
